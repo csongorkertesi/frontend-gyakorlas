@@ -1,0 +1,52 @@
+-------------------- style.css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+-------------- main.ts
+
+if (main) main.innerHTML = page.content;
+    if (header) header.innerHTML = page.header || page.title;
+    if (footer) footer.innerHTML = page.footer || '';
+    if (title) title.innerText = page.title;
+
+const a = document.createElement('a');
+    a.href = '#';
+    a.innerText = page.title;
+    a.addEventListener('click', (e) => {
+        e.preventDefault();
+        updateContent(index);
+    });
+    if (nav) {
+        nav.appendChild(a);
+    }

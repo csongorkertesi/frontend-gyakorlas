@@ -1,0 +1,7 @@
+[
+  { "title": "Home", "content": "<p>Content</p>" },
+  { "title": "About us", "content": "<p>We are a great company</p>", "company": "Company3" },
+  { "title": "Ordering", "content": "<p>To order, contact us at <tel>+36-1-000-0000</tel></p>", "company": "Company", "footer": "Thank you for choosing us!" },
+  { "title": "Contact", "content": "<p>Reach us at <email>info@example.com</email></p>", "company": "Company2", "footer": "We look forward to hearing from you!", "language": "en" },
+  { "title": "FAQ", "content": "<p>Frequently Asked Questions</p>" }
+]
